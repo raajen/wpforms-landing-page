@@ -1,0 +1,42 @@
+@import './colors';
+
+.btn {
+	padding: 1.8rem 0;
+	text-decoration: none;
+	font-size: 2rem;
+	line-height: 2.4rem;
+	text-align: center;
+	font-weight: 700;
+	color: var(--med-grey);
+	border-radius: 3px;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 1px solid;
+	width: 290px;
+
+	&--primary {
+		background-color: var(--light-white);
+		border-color: var(--border-grey);
+	}
+
+	&--secondary {
+		color: var(--white);
+		background-color: var(--orange);
+		border-color: var(--border-orange);
+	}
+
+	&--blue {
+		color: var(--white);
+		background-color: var(--light-blue);
+		border-color: var(--border-blue);
+	}
+}
+
+//// Tablet screens
+//@media all and (min-width: 768px) and (max-width: 1024px) {
+//	.wp-forms {
+//		.btn {
+//			width: 250px;
+//		}
+//	}
+//}
